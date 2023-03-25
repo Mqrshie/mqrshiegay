@@ -6,7 +6,7 @@ discs.forEach(disc => {
   disc.addEventListener('click', () => {
     stopAllAudio();
     const discId = disc.getAttribute('id').substring(5);
-    const audio = new Audio(`./music/${discId}.ogg`);
+    const audio = new Audio(`music/${discId}.ogg`);
     audio.play();
     currentAudio = audio;
   });
