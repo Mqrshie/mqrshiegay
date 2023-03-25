@@ -1,0 +1,101 @@
+body {
+  background-color: #d58b8b;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+
+#music-player {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* horizontally center the discs */
+  align-items: center; /* vertically center the discs */
+  margin-top: 50px; /* add some space at the top */
+}
+
+.disc {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.disc:hover {
+  transform: scale(1.1); /* increase the size on hover */
+}
+
+.disc:focus {
+  outline: none; /* remove the default focus outline */
+}
+
+.disc:before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* maintain a 1:1 aspect ratio */
+}
+
+.disc > span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* center the text */
+  font-family: Arial, sans-serif; /* set the font */
+  font-size: 16px; /* adjust the font size */
+}
+
+#disc-13 {
+  background-image: url("images/music_disc_13.png");
+}
+
+#disc-cat {
+  background-image: url("images/music_disc_cat.png");
+}
+
+#disc-blocks {
+  background-image: url("images/music_disc_blocks.png");
+}
+
+#disc-chirp {
+  background-image: url("images/music_disc_chirp.png");
+}
+
+#disc-far {
+  background-image: url("images/music_disc_far.png");
+}
+
+#disc-mall {
+  background-image: url("images/music_disc_mall.png");
+}
+
+#disc-mellohi {
+  background-image: url("images/music_disc_mellohi.png");
+}
+
+#disc-stal {
+  background-image: url("images/music_disc_stal.png");
+}
+
+#disc-strad {
+  background-image: url("images/music_disc_strad.png");
+}
+
+#disc-ward {
+  background-image: url("images/music_disc_ward.png");
+}
+
+#disc-11 {
+  background-image: url("images/music_disc_11.png");
+}
+
+#disc-wait {
+  background-image: url("images/music_disc_wait.png");
+}

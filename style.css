@@ -1,0 +1,41 @@
+ body {
+    background-image: url('bisexualflag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #000000;
+  }
+  
+  
+    
+.container {
+    position: relative;
+  }
+  
+  #pride {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    animation-play-state: paused;
+  }
+  
+  #pride:hover {
+    opacity: 1;
+    animation-play-state: running;
+  }
+  
